@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="QvarcY — I build practical tools where software meets real-world problems" src="./assets/hero-dark.svg" width="100%">
+  <img alt="QvarcY — practical tools for real-world problems" src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -19,27 +19,111 @@
 
 ### Hello, I'm Ingars / QvarcY 👋
 
-I'm a curiosity-driven maker from Latvia.
+I'm a **front-end trained developer and curiosity-driven maker from Latvia**.
 
-I'm not tied to one programming language, framework, or field. What interests me is the space between **"this is annoying"** and **"this could work better."** That usually leads me to build something.
+My formal software-development foundation is in front-end development, but my work has grown far beyond the browser. Today I build and explore research systems, desktop tooling, automation, e-commerce integrations, Minecraft utilities and maker technology.
 
-Sometimes it's a research engine. Sometimes a desktop tool for 3D-printing workflows. Sometimes a PrestaShop module, a Minecraft automation utility, a laser/CAD experiment, or a small script that removes repetitive work.
+I'm not tied to one programming language, framework or field. What interests me most is the space between **"this is annoying"** and **"this could work better."**
+
+That usually leads me to build something.
 
 > **I build practical tools where software meets real-world problems.**
 
 ---
 
-### 🧰 Tech I work with
+### 🎓 Foundation
+
+My formal front-end foundation includes the **Meta Front-End Developer Professional Certificate** and hands-on work with modern React.
+
+That path covered front-end development, JavaScript, React, HTML/CSS, UI/UX, version control, testing, algorithms and application development.
+
+The foundation still shapes how I build today — even when the final project is a desktop application, research engine, automation tool or physical maker workflow.
+
+<a href="https://kas.id.lv/portfolio/"><strong>View portfolio & certificates →</strong></a>
+
+---
+
+### 🧰 Technology & skills
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,tailwind,git,github,linux,windows,vscode&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,tailwind,git,github,linux,windows,vscode&theme=light">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,tailwind,git,github,linux,windows,vscode&theme=dark" alt="Tech stack">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,react,mysql,git,github,linux,windows,vscode&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,react,mysql,git,github,linux,windows,vscode&theme=light">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,php,html,css,react,mysql,git,github,linux,windows,vscode&theme=dark" alt="Technology stack">
 </picture>
 
 </div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🌐 Front-end foundation
+
+`HTML5` · `CSS3` · `JavaScript` · `React`  
+`Responsive Design` · `UI/UX` · `Component-based UI`
+
+Built through formal training and practical React projects using modern Hooks, forms, data fetching and testing.
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ Software & automation
+
+`Python` · `TypeScript` · `Node.js` · `PHP` · `PowerShell`
+
+Used across research tooling, Windows desktop applications, web systems, Minecraft automation and practical utility workflows.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+#### 🧩 Frameworks & platforms
+
+`Tauri` · `PrestaShop 8` · `Mineflayer` · `GitHub Actions`
+
+Used in real projects including PrintGuardian, PrestaShop modules, Minecraft ALT Manager and automated build/release workflows.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🗄️ Data & backend
+
+`SQL` · `MySQL / MariaDB` · `REST APIs` · `JSON`
+
+Used for application data, analytics, integrations, structured research data and backend workflows.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+#### 🧪 Engineering workflow
+
+`Git` · `GitHub` · `Automated Tests` · `CI/CD`  
+`Windows` · `Linux` · `WSL` · `VS Code`
+
+Used for everyday development, validation, releases, deployment and server-side troubleshooting.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🛠️ Maker & physical tech
+
+`3D Printing` · `Bambu Studio` · `Laser Engraving`  
+`LightBurn` · `CAD` · `Rapid Prototyping`
+
+Software meets physical making through real workshop projects and production experiments.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -50,13 +134,11 @@ Sometimes it's a research engine. Sometimes a desktop tool for 3D-printing workf
 
 <br>
 
-**AI-assisted research engine with structured evidence and research memory.**
+**Configurable market-research crawler and AI-assisted research engine for structured discovery, monitoring and analysis.**
 
 Sprīdītis explores the web, discovers sources, collects structured evidence, remembers how useful information was found, and is being built to make future research runs smarter than previous ones.
 
 **Focus** · `Python` · `Research Automation` · `Web Crawling` · `Evidence` · `AI-assisted Analysis`
-
-**Current public baseline** · `v3.3.0-alpha.7`
 
 <a href="https://github.com/QvarcY/spriditis"><strong>View project →</strong></a>
 
@@ -71,9 +153,7 @@ A local-first Windows desktop tool for inspecting `.3mf` projects from Bambu Stu
 
 It highlights settings worth checking, compares projects with trusted profiles, supports selected safe corrections, and exports a verified copy without overwriting the original.
 
-**Focus** · `TypeScript` · `Tauri` · `3MF` · `3D Printing` · `Local-first`
-
-**Current public preview** · `v0.3.0-preview.1`
+**Focus** · `TypeScript` · `Tauri` · `3MF` · `3D Printing` · `Windows` · `GitHub Actions`
 
 <a href="https://github.com/QvarcY/PrintGuardian"><strong>View project →</strong></a>
 
@@ -86,7 +166,7 @@ It highlights settings worth checking, compares projects with trusted profiles, 
 
 A free, privacy-aware Meta Pixel integration for PrestaShop 8 with consent gating and ecommerce events — without requiring a SaaS subscription.
 
-**Focus** · `PHP` · `PrestaShop 8` · `E-commerce` · `Privacy`
+**Focus** · `PHP` · `JavaScript` · `PrestaShop 8` · `E-commerce` · `Privacy`
 
 <a href="https://github.com/QvarcY/prestashop-meta-pixel-bridge"><strong>View project →</strong></a>
 
@@ -101,7 +181,7 @@ A Windows application for Minecraft Java ALT / AFK accounts with automated login
 
 Built around Mineflayer to make repetitive account automation easier to manage.
 
-**Focus** · `Mineflayer` · `Node.js` · `PowerShell` · `Minecraft Automation`
+**Focus** · `Node.js` · `Mineflayer` · `PowerShell` · `Minecraft Automation` · `Windows`
 
 <a href="https://github.com/QvarcY/minecraft-alt-manager"><strong>View project →</strong></a>
 
@@ -144,18 +224,18 @@ Lightweight visitor journey, referrer and logged-in customer tracking for Presta
 - **Research systems** — evidence over guesses
 - **Web & e-commerce** — useful real-world workflows
 - **Minecraft** — automation playground
-- **Maker tech** — 3D printing · laser engraving · CAD
+- **Maker technology** — 3D printing · laser engraving · CAD
 - **Open source** — learn, share and improve
 
 ---
 
 ### 🛠️ How I like to build
 
-**01** Find a real problem
-**02** Understand the process
-**03** Build the smallest useful solution
-**04** Test it in real use
-**05** Improve what actually matters
+`01` **Find a real problem**  
+`02` **Understand the process**  
+`03` **Build the smallest useful solution**  
+`04` **Test it in real use**  
+`05` **Improve what actually matters**
 
 <br>
 
@@ -191,7 +271,7 @@ Either outcome is useful if I learned something, removed friction, or made the o
 
 ### Explore · Build · Test · Improve
 
-<sub>Practical tools, experiments and open-source work by QvarcY.</sub>
+<sub>Front-end foundation · multidisciplinary making · practical problem solving</sub>
 
 <br><br>
 

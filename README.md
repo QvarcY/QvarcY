@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="QvarcY" src="./assets/hero-dark.svg" width="100%">
+  <img alt="QvarcY — practical tools for real-world problems" src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 
@@ -15,8 +15,8 @@
 Hi, I'm Ingars / QvarcY
 Developer and maker from Latvia.
 I like understanding how things work, finding friction in real processes, and building something useful around it.
-My interests move between web development, automation, research tools, open source and maker technology — not because I want to collect technologies, but because different problems need different tools.
-Build what is useful. Learn what is interesting. Improve what is unnecessarily complicated.
+My interests move between web development, automation, research tools, open source and maker technology. I prefer choosing the tool that fits the problem rather than staying inside one stack.
+Build what is useful. Learn what is interesting. Simplify what is unnecessarily complicated.
 
 <table>
 <tr>
@@ -40,17 +40,41 @@ Build what is useful. Learn what is interesting. Improve what is unnecessarily c
 </table>
 
 Toolbox
-Development
+<details>
+<summary><strong>💻 Development & automation</strong></summary>
+
+
 Python · TypeScript · JavaScript · PHP · Node.js · PowerShell
-Web & data
-HTML · CSS · React · SQL · MySQL/MariaDB · REST APIs
-Platforms & workflow
-Git · GitHub · GitHub Actions · Windows · Linux · WSL · PrestaShop 8 · Tauri
-Maker
+Used across automation, research tooling, desktop utilities, web systems and Minecraft-related tools.
+</details>
+
+<details>
+<summary><strong>🌐 Web & data</strong></summary>
+
+
+HTML · CSS · React · SQL · MySQL / MariaDB · REST APIs · JSON · PrestaShop 8
+My formal software-development foundation is in front-end development, while practical work has expanded into backend data flows, APIs, analytics and e-commerce systems.
+</details>
+
+<details>
+<summary><strong>⚙️ Platforms & workflow</strong></summary>
+
+
+Tauri · Mineflayer · Git · GitHub · GitHub Actions · Windows · Linux · WSL · VS Code
+Tools and platforms I use for building, testing, releasing, deploying and troubleshooting projects.
+</details>
+
+<details>
+<summary><strong>🛠️ Maker & physical tech</strong></summary>
+
+
 3D Printing · Bambu Studio · Laser Engraving · LightBurn · CAD
+The physical side of my work — prototyping, fabrication and solving workshop problems with software and hardware together.
+</details>
+
 Background
-My formal software-development foundation is in front-end development and includes the Meta Front-End Developer Professional Certificate.
-That foundation is still part of how I work today, even though my interests and projects now extend well beyond front-end development.
+My formal software-development foundation includes the Meta Front-End Developer Professional Certificate.
+That background still shapes how I work today, even though my interests now extend well beyond front-end development.
 Portfolio & certificates →
 <div align="center">
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f6f8fa"/><stop offset="55%" stop-color="#ffffff"/><stop offset="100%" stop-color="#eef2f7"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0969da"/><stop offset="50%" stop-color="#8250df"/><stop offset="100%" stop-color="#1a7f37"/></linearGradient>
+</defs>
+<rect width="1200" height="330" rx="28" fill="url(#bg)" stroke="#d0d7de"/>
+<rect x="62" y="52" width="8" height="226" rx="4" fill="url(#accent)"/>
+<text x="104" y="118" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" fill="#1f2328">QvarcY</text>
+<text x="105" y="167" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" fill="#24292f">I build practical tools where software meets real-world problems.</text>
+<text x="105" y="214" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#57606a">Automation · AI-assisted research · Open source · Web · Minecraft · Maker tech</text>
+<g transform="translate(105 248)">
+<rect width="118" height="34" rx="17" fill="#ffffff" stroke="#d0d7de"/><text x="59" y="22" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#24292f">LATVIA</text>
+<rect x="132" width="148" height="34" rx="17" fill="#ffffff" stroke="#d0d7de"/><text x="206" y="22" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#24292f">CURIOUS MAKER</text>
+<rect x="294" width="142" height="34" rx="17" fill="#ffffff" stroke="#d0d7de"/><text x="365" y="22" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#24292f">BUILD · TEST</text>
+</g>
+</svg>

@@ -47,6 +47,14 @@
   >
 </a>
 </p>
+<p>
+<a href="https://buymeacoffee.com/craftin">
+  <img
+    src="https://img.shields.io/badge/SAY_THANKS-buy_me_a_coffee-A855F7?style=flat-square&labelColor=0A0A0F&logo=buymeacoffee&logoColor=FFDD00"
+    alt="Buy me a coffee"
+  >
+</a>
+</p>
 
 </div>
 
@@ -242,6 +250,29 @@ Repositories, pinned work and contribution activity tell the rest of the story.
 
 </div>
 
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
+
+<div align="center">
+
+### ⟡ SAY THANKS ⟡
+
+**Did I help solve something?**
+
+<sub>
+Whether through a project, a fix, a contribution, or just a useful solution —<br>
+if it helped, you can buy me a coffee.
+</sub>
+
+<br><br>
+
+<a href="https://buymeacoffee.com/craftin">
+  <img
+    src="https://img.shields.io/badge/BUY_ME_A_COFFEE-say_thanks-A855F7?style=for-the-badge&labelColor=0A0A0F&logo=buymeacoffee&logoColor=FFDD00"
+    alt="Buy me a coffee"
+  >
+</a>
+
+</div>
 <!-- ═══════════════════════════════════════════════════════════
      FOOTER · IDENTITY CORE
      ═══════════════════════════════════════════════════════════ -->

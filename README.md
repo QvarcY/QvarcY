@@ -226,12 +226,12 @@ while my interests have expanded far beyond front-end development.
 <p>
 <img
   height="180"
-  src="https://github-readme-stats.vercel.app/api?username=QvarcY&show_icons=true&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&icon_color=A855F7&text_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true"
+  src="https://github-stats-extended.vercel.app/api?username=QvarcY&show_icons=true&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&icon_color=A855F7&text_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true"
   alt="QvarcY GitHub statistics"
 >
 <img
   height="180"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=QvarcY&layout=compact&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&text_color=E5E7EB&langs_count=8"
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=QvarcY&layout=compact&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&text_color=E5E7EB&langs_count=8"
   alt="Most used languages"
 >
 </p>

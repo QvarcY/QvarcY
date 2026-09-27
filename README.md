@@ -1,83 +1,261 @@
+<!-- ═══════════════════════════════════════════════════════════
+     QvarcY · GitHub Profile
+     Builder · Problem Solver · Maker
+     ═══════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
+<!-- ░░ HERO · LOCAL DARK/LIGHT ░░ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="QvarcY — practical tools for real-world problems" src="./assets/hero-dark.svg" width="100%">
+  <img
+    alt="QvarcY — practical tools for real-world problems"
+    src="./assets/hero-dark.svg"
+    width="100%"
+  >
 </picture>
 
+<!-- ░░ IDENTITY · ONLY ANIMATED ELEMENT ░░ -->
+<a href="https://kas.id.lv/portfolio/">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1300&color=4F46E5&center=true&vCenter=true&width=650&lines=Find+the+friction.;Understand+the+system.;Build+the+fix.;Digital+%2B+physical."
+    alt="Find the friction. Understand the system. Build the fix."
+  >
+</a>
 
-<a href="https://kas.id.lv/portfolio/"><img src="https://img.shields.io/badge/Portfolio-kas.id.lv-4F46E5?style=flat-square" alt="Portfolio"></a>
-<a href="https://github.com/QvarcY?tab=repositories"><img src="https://img.shields.io/badge/Repositories-open_source-4F46E5?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
-<a href="https://craftin.lv/"><img src="https://img.shields.io/badge/CraftIN-maker_workshop-4F46E5?style=flat-square" alt="CraftIN"></a>
+<br>
+
+<!-- ░░ LINKS ░░ -->
+<p>
+<a href="https://kas.id.lv/portfolio/">
+  <img
+    src="https://img.shields.io/badge/◈_Portfolio-kas.id.lv-4F46E5?style=for-the-badge&labelColor=0A0A0F"
+    alt="Portfolio"
+  >
+</a>
+<a href="https://github.com/QvarcY?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/◈_Repositories-open_source-06B6D4?style=for-the-badge&labelColor=0A0A0F&logo=github&logoColor=white"
+    alt="Repositories"
+  >
+</a>
+<a href="https://craftin.lv/">
+  <img
+    src="https://img.shields.io/badge/◈_CraftIN-maker_workshop-A855F7?style=for-the-badge&labelColor=0A0A0F"
+    alt="CraftIN"
+  >
+</a>
+</p>
+
 </div>
 
-Hi, I'm Ingars / QvarcY
-Developer and maker from Latvia.
-I like understanding how things work, finding friction in real processes, and building something useful around it.
-My interests move between web development, automation, research tools, open source and maker technology. I prefer choosing the tool that fits the problem rather than staying inside one stack.
-Build what is useful. Learn what is interesting. Simplify what is unnecessarily complicated.
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
 
-<table>
+<div align="center">
+
+#### ⟡ Hi, I'm Ingars / QvarcY ⟡
+
+**Latvia**
+
+*I like understanding how things work, finding friction in real processes,<br>
+and building practical solutions around it.*
+
+I work across **software**, **automation**, **research tools**,<br>
+**open source** and **maker technology**.
+
+I prefer choosing the tool that fits the problem<br>
+rather than staying inside one stack.
+
+`Understand the problem. Build what is useful. Simplify what does not need to be complicated.`
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
+
+<!-- ═══════════════════════════════════════════════════════════
+     PRINCIPLES · LOCAL ICONS · NO EXTERNAL BADGES
+     ═══════════════════════════════════════════════════════════ -->
+
+<table align="center" width="100%">
 <tr>
-<td width="25%" align="center">
-<strong>Build</strong><br>
-<sub>practical tools</sub>
+
+<td align="center" width="25%">
+  <img src="./assets/icon-build.svg" width="28" height="28" alt="">
+  <br><br>
+  <strong>BUILD</strong>
+  <br>
+  <sub>practical tools</sub>
 </td>
-<td width="25%" align="center">
-<strong>Explore</strong><br>
-<sub>how systems work</sub>
+
+<td align="center" width="25%">
+  <img src="./assets/icon-explore.svg" width="28" height="28" alt="">
+  <br><br>
+  <strong>EXPLORE</strong>
+  <br>
+  <sub>how systems work</sub>
 </td>
-<td width="25%" align="center">
-<strong>Simplify</strong><br>
-<sub>awkward workflows</sub>
+
+<td align="center" width="25%">
+  <img src="./assets/icon-simplify.svg" width="28" height="28" alt="">
+  <br><br>
+  <strong>SIMPLIFY</strong>
+  <br>
+  <sub>awkward workflows</sub>
 </td>
-<td width="25%" align="center">
-<strong>Make</strong><br>
-<sub>digital + physical</sub>
+
+<td align="center" width="25%">
+  <img src="./assets/icon-make.svg" width="28" height="28" alt="">
+  <br><br>
+  <strong>MAKE</strong>
+  <br>
+  <sub>digital + physical</sub>
 </td>
+
 </tr>
 </table>
 
-Toolbox
-<details>
-<summary><strong>💻 Development & automation</strong></summary>
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
 
-
-Python · TypeScript · JavaScript · PHP · Node.js · PowerShell
-Used across automation, research tooling, desktop utilities, web systems and Minecraft-related tools.
-</details>
-
-<details>
-<summary><strong>🌐 Web & data</strong></summary>
-
-
-HTML · CSS · React · SQL · MySQL / MariaDB · REST APIs · JSON · PrestaShop 8
-My formal software-development foundation is in front-end development, while practical work has expanded into backend data flows, APIs, analytics and e-commerce systems.
-</details>
-
-<details>
-<summary><strong>⚙️ Platforms & workflow</strong></summary>
-
-
-Tauri · Mineflayer · Git · GitHub · GitHub Actions · Windows · Linux · WSL · VS Code
-Tools and platforms I use for building, testing, releasing, deploying and troubleshooting projects.
-</details>
-
-<details>
-<summary><strong>🛠️ Maker & physical tech</strong></summary>
-
-
-3D Printing · Bambu Studio · Laser Engraving · LightBurn · CAD
-The physical side of my work — prototyping, fabrication and solving workshop problems with software and hardware together.
-</details>
-
-Background
-My formal software-development foundation includes the Meta Front-End Developer Professional Certificate.
-That background still shapes how I work today, even though my interests now extend well beyond front-end development.
-Portfolio & certificates →
 <div align="center">
 
-Explore · Build · Improve
-<sub>QvarcY · Latvia</sub>
+#### ⟡ TOOLS I USE ⟡
+
+<sub>
+Tools change. Problems change.<br>
+The goal stays the same: use what fits.
+</sub>
+
+</div>
+
+<br>
+
+<details>
+<summary><strong>◈ &nbsp; Development & Automation</strong></summary>
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=06B6D4)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A0A0F?style=flat-square&logo=typescript&logoColor=4F46E5)
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0A0F?style=flat-square&logo=javascript&logoColor=A855F7)
+![PHP](https://img.shields.io/badge/PHP-0A0A0F?style=flat-square&logo=php&logoColor=06B6D4)
+![Node.js](https://img.shields.io/badge/Node.js-0A0A0F?style=flat-square&logo=nodedotjs&logoColor=4F46E5)
+![PowerShell](https://img.shields.io/badge/PowerShell-0A0A0F?style=flat-square&logo=powershell&logoColor=A855F7)
+
+*Used for building utilities, automation, research tooling, web systems and experiments.*
+
+</details>
+
+<details>
+<summary><strong>◇ &nbsp; Web & Data</strong></summary>
+
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-0A0A0F?style=flat-square&logo=html5&logoColor=06B6D4)
+![CSS3](https://img.shields.io/badge/CSS3-0A0A0F?style=flat-square&logo=css3&logoColor=4F46E5)
+![React](https://img.shields.io/badge/React-0A0A0F?style=flat-square&logo=react&logoColor=A855F7)
+![MySQL](https://img.shields.io/badge/MySQL-0A0A0F?style=flat-square&logo=mysql&logoColor=06B6D4)
+![MariaDB](https://img.shields.io/badge/MariaDB-0A0A0F?style=flat-square&logo=mariadb&logoColor=4F46E5)
+![PrestaShop](https://img.shields.io/badge/PrestaShop-0A0A0F?style=flat-square&logo=prestashop&logoColor=A855F7)
+
+*Interfaces, APIs, data flows, databases, web applications and e-commerce systems.*
+
+</details>
+
+<details>
+<summary><strong>△ &nbsp; Platforms & Workflow</strong></summary>
+
+<br>
+
+![Tauri](https://img.shields.io/badge/Tauri-0A0A0F?style=flat-square&logo=tauri&logoColor=06B6D4)
+![Git](https://img.shields.io/badge/Git-0A0A0F?style=flat-square&logo=git&logoColor=4F46E5)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0A0A0F?style=flat-square&logo=githubactions&logoColor=A855F7)
+![Linux](https://img.shields.io/badge/Linux-0A0A0F?style=flat-square&logo=linux&logoColor=06B6D4)
+![WSL](https://img.shields.io/badge/WSL-0A0A0F?style=flat-square&logo=windows-terminal&logoColor=4F46E5)
+![VS Code](https://img.shields.io/badge/VS_Code-0A0A0F?style=flat-square&logo=visualstudiocode&logoColor=A855F7)
+
+*Tools for building, testing, troubleshooting, releasing and running things.*
+
+</details>
+
+<details>
+<summary><strong>⌘ &nbsp; Maker & Physical Tech</strong></summary>
+
+<br>
+
+![3D Printing](https://img.shields.io/badge/3D_Printing-0A0A0F?style=flat-square&logo=printables&logoColor=06B6D4)
+![Bambu Studio](https://img.shields.io/badge/Bambu_Studio-0A0A0F?style=flat-square&logo=bambulab&logoColor=4F46E5)
+![Laser](https://img.shields.io/badge/Laser_Engraving-0A0A0F?style=flat-square&logo=lightburn&logoColor=A855F7)
+![CAD](https://img.shields.io/badge/CAD-0A0A0F?style=flat-square&logo=autodesk&logoColor=06B6D4)
+
+*Prototyping, fabrication and solving physical problems with software + hardware together.*
+
+</details>
+
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
+
+<div align="center">
+
+#### ⟡ BACKGROUND ⟡
+
+My formal software-development foundation includes the<br>
+**Meta Front-End Developer Professional Certificate.**
+
+That foundation still influences how I approach interfaces, structure and usability,<br>
+while my interests have expanded far beyond front-end development.
+
+<a href="https://kas.id.lv/portfolio/">
+  <img
+    src="https://img.shields.io/badge/→_Portfolio_%26_Certificates-4F46E5?style=for-the-badge&labelColor=0A0A0F"
+    alt="Portfolio & Certificates"
+  >
+</a>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
+
+<!-- ═══════════════════════════════════════════════════════════
+     AUTOMATIC GITHUB SIGNALS
+     ═══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+#### ⟡ GITHUB ⟡
+
+<p>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=QvarcY&show_icons=true&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&icon_color=A855F7&text_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true"
+  alt="QvarcY GitHub statistics"
+>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=QvarcY&layout=compact&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&text_color=E5E7EB&langs_count=8"
+  alt="Most used languages"
+>
+</p>
+
+<sub>
+Repositories, pinned work and contribution activity tell the rest of the story.
+</sub>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER · IDENTITY CORE
+     ═══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="./assets/divider.svg" width="100%" height="2" alt="">
+
+<br>
+
+**BUILD · SOLVE · MAKE**
+
+<sub>
+QvarcY · Latvia · practical tools for real-world problems
+</sub>
+
 </div>

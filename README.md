@@ -48,6 +48,12 @@
 </a>
 </p>
 <p>
+<a href="https://github.com/sponsors/QvarcY">
+  <img
+    src="https://img.shields.io/badge/GITHUB_SPONSORS-support_my_work-EA4AAA?style=flat-square&labelColor=0A0A0F&logo=githubsponsors&logoColor=white"
+    alt="Sponsor on GitHub"
+  >
+</a>
 <a href="https://buymeacoffee.com/craftin">
   <img
     src="https://img.shields.io/badge/SAY_THANKS-buy_me_a_coffee-A855F7?style=flat-square&labelColor=0A0A0F&logo=buymeacoffee&logoColor=FFDD00"
@@ -254,17 +260,23 @@ Repositories, pinned work and contribution activity tell the rest of the story.
 
 <div align="center">
 
-### ⟡ SAY THANKS ⟡
+### ⟡ SUPPORT THE WORK ⟡
 
-**Did I help solve something?**
+**Did one of my tools, fixes, or contributions save you time?**
 
 <sub>
-Whether through a project, a fix, a contribution, or just a useful solution —<br>
-if it helped, you can buy me a coffee.
+GitHub Sponsors helps me keep building and maintaining practical open-source tools.<br>
+No paywalls, no locked fixes — just optional support if the work is useful to you.
 </sub>
 
 <br><br>
 
+<a href="https://github.com/sponsors/QvarcY">
+  <img
+    src="https://img.shields.io/badge/GITHUB_SPONSORS-support_the_work-EA4AAA?style=for-the-badge&labelColor=0A0A0F&logo=githubsponsors&logoColor=white"
+    alt="Sponsor on GitHub"
+  >
+</a>
 <a href="https://buymeacoffee.com/craftin">
   <img
     src="https://img.shields.io/badge/BUY_ME_A_COFFEE-say_thanks-A855F7?style=for-the-badge&labelColor=0A0A0F&logo=buymeacoffee&logoColor=FFDD00"

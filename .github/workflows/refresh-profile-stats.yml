@@ -68,5 +68,30 @@ jobs:
             exit 0
           fi
 
+          version="$(date -u +%Y%m%d%H%M%S)"
+
+          python3 - "$version" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          version = sys.argv[1]
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+
+          patterns = [
+              r'(\./assets/github-stats\.svg\?v=)\d+',
+              r'(\./assets/top-langs\.svg\?v=)\d+',
+          ]
+
+          for pattern in patterns:
+              text, count = re.subn(pattern, rf'\g<1>{version}', text, count=1)
+              if count != 1:
+                  raise SystemExit(f"Expected README cache-bust marker not found: {pattern}")
+
+          path.write_text(text, encoding="utf-8")
+          PY
+
+          git add README.md
           git commit -m "chore(profile): refresh GitHub stats"
           git push

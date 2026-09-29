@@ -1,0 +1,72 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/refresh-profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Fetch fresh GitHub stat cards
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cache_bust="$(date -u +%s)"
+
+          stats_url="https://github-stats-extended.vercel.app/api?username=QvarcY&show_icons=true&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&icon_color=A855F7&text_color=E5E7EB&hide_border=false&include_all_commits=true&count_private=true&cache_bust=${cache_bust}"
+          langs_url="https://github-stats-extended.vercel.app/api/top-langs/?username=QvarcY&layout=compact&theme=tokyonight&bg_color=0A0A0F&border_color=4F46E5&title_color=06B6D4&text_color=E5E7EB&langs_count=8&cache_bust=${cache_bust}"
+
+          mkdir -p assets
+
+          curl --fail --location --silent --show-error \
+            --retry 3 --retry-delay 2 \
+            "$stats_url" \
+            --output assets/github-stats.svg.tmp
+
+          curl --fail --location --silent --show-error \
+            --retry 3 --retry-delay 2 \
+            "$langs_url" \
+            --output assets/top-langs.svg.tmp
+
+          for file in assets/github-stats.svg.tmp assets/top-langs.svg.tmp; do
+            test -s "$file"
+            grep -Eiq '<svg([[:space:]>])' "$file"
+          done
+
+          mv assets/github-stats.svg.tmp assets/github-stats.svg
+          mv assets/top-langs.svg.tmp assets/top-langs.svg
+
+      - name: Commit cards when data changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-stats.svg assets/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile statistics are already current."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh GitHub stats"
+          git push

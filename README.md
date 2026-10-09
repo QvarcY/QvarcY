@@ -240,12 +240,12 @@ while my interests have expanded far beyond front-end development.
 <p>
 <img
   height="180"
-  src="./assets/github-stats.svg?v=20261008184947"
+  src="./assets/github-stats.svg?v=20261009011216"
   alt="QvarcY GitHub statistics"
 >
 <img
   height="180"
-  src="./assets/top-langs.svg?v=20261008184947"
+  src="./assets/top-langs.svg?v=20261009011216"
   alt="Most used languages"
 >
 </p>
